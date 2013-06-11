@@ -1,0 +1,6 @@
+// Para ejecutar la case principal de la clase, que se encuentra definida en el manifiesto
+
+Ejecutados la sentencia:
+
+java -jar target/poo-java-1.0.0.jar
+

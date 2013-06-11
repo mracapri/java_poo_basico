@@ -1,0 +1,10 @@
+// Para compilar usaremos
+
+javac App.java ENTER
+
+// Se genera el codigo binario, un archivo .class
+
+
+// Y para ejcutar la aplicacion usaremos
+
+java App ENTER
