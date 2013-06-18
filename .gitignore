@@ -1,3 +1,9 @@
+#############
+# Compilados java
+#############
+*.class
+
+
 ##############
 ## archivos ocultos mac
 ##############
