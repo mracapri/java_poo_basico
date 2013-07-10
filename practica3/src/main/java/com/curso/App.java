@@ -8,5 +8,8 @@ public class App{
 
 		Lobo l = new Lobo();
 		l.encender();
+
+		Transporte t = new Lobo();
+		t.encender();
 	}
 }
