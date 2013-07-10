@@ -1,0 +1,3 @@
+// Para ejecutar la clase que se encuentra dentro del archivo enpaquetado usamos el siguiente comando
+
+java -cp target/poo-java-1.0.0.jar com.curso.App

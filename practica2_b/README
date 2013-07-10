@@ -1,0 +1,23 @@
+La clase "Robot" tiene como corazón un sistema operátivo y un nombre, realiza las siguientes funciones básicas:
+
+  + adelante
+  + atras
+  + izquierda
+  + derecha
+
+La clase "SuperRobot", hace las mismas funciones que "Robot". Por ende, "SuperRobot" heredó de la clase "Robot" y tiene las siguientes funciones:
+  + adelante
+  + atras
+  + izquierda
+  + derechar
+  + recordar
+  + acelerar
+
+"UltraRobot" hereda de super robot, pero no se le puede modificar ninguna propiedad, se llama "ultra" y siempre usará el mismo sistema operativo el cual es construido, no podra cambiarsele el nombre ni el sistema opeartivo :( Pero tiene nuevas y mejoradas funciones:
+
+  + Todas las anteriores
+  + Posicionarse globlamente
+  + Descargar funciones de internet
+  + Enviar sms
+  + Publicar en facebook
+  + Y decir: Ola k ase!!
