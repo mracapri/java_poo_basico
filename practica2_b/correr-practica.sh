@@ -1,16 +1,3 @@
-if [ $1 = "-ola" ]
-then
-	echo "   __ _   _ __    __ _  __  __  ( _ )   _ __ ___    ___    ___  | |_    __ _   _ __ ___  "
-	echo "  / _  | |  __|  / _  | \ \/ /  / _ \  |  _   _ \  / __|  / __| | __|  / _  | |  _   _ \ "
-	echo " | (_| | | |    | (_| |  >  <  | (_) | | | | | | | \__ \ | (__  | |_  | (_| | | | | | | |"
-	echo "  \__, | |_|     \__,_| /_/\_\  \___/  |_| |_| |_| |___/  \___|  \__|  \__,_| |_| |_| |_|"
-	echo "  |___/    "
-	
-	echo ""
-	echo ""
-	echo -n "Enter para continuar..." 
-	read x
-fi
 
 # Este shell-script corre la practica con un solo comando
 
@@ -18,8 +5,9 @@ fi
 
 mvn clean package
 
-# Paso 2 - Limpiar la consola
-clear
+# Paso 2 - Resetea la consola
+reset
+
 
 
 # Paso 3 - Correr la aplicacion

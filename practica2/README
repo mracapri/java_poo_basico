@@ -1,3 +1,13 @@
-// Para ejecutar la clase que se encuentra dentro del archivo enpaquetado usamos el siguiente comando
+En esta practica se muestra la estructura principal de los
+proyectos maven con java.
+
+practica2
+
+	---+src
+	-------+main
+	-----------+java
+	---------------+com
+	-------------------+curso
+	---+pom.xml
 
 java -cp target/poo-java-1.0.0.jar com.curso.App

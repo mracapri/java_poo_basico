@@ -5,10 +5,15 @@ public class App{
 	public static void main(String[] arg){
 		
 		// Iniciando robot en el main
-		Robot r2d2 = new Robot();
+		Robot robot = new Robot();
+		robot.nombre = "Robotin";
 
 		// invocando metodo despertar del robot
-		r2d2.despertar();
+		robot.despertar();
+
+
+		System.out.println(
+			String.format("El nombre del robot es %s", robot.nombre));
 	
 	}
 }

@@ -1,3 +1,10 @@
-// Para ejecutar la clase que se encuentra dentro del archivo enpaquetado usamos el siguiente comando
+Esta practica explica la orientacion a objetos
+de la clase Robot
 
+## Ejecuacion del paquete java en ambas lineas ##
 java -cp target/poo-java-1.0.0.jar com.curso.App
+mvn clean package
+
+
+## Ejecuacion del paquete java, en una sola linea ##
+ mvn clean package; java -cp target/poo-java-1.0.0.jar com.curso.App

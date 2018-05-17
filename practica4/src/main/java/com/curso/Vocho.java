@@ -1,6 +1,6 @@
 package com.curso;
 
-public class Vocho implements Transporte{
+public class Vocho extends Transporte{
 
 	public void encender(){
 		System.out.println("Encendiendo VOCHO");

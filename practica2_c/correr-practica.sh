@@ -5,7 +5,7 @@
 mvn clean package
 
 # Paso 2 - Limpiar la consola
-clear
+reset
 
 
 # Paso 3 - Correr la aplicacion

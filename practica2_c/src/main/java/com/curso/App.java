@@ -4,8 +4,8 @@ public class App{
 
 	public static void main(String[] arg){
 		
-		SuperRobot r2d2 = null;
-		r2d2 = new SuperRobot("eva");
+		SuperRobot robot = null;
+		robot = new SuperRobot("Ev@");
 
 
 		UltraRobot ultron = new UltraRobot();

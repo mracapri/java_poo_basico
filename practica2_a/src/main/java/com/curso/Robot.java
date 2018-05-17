@@ -1,13 +1,21 @@
 package com.curso;
 
 public class Robot{
-	private SistemaOperativo sistemaOperativo;
-	private String nombre;
+
+	////////////////////////////////////////
+	// Caracteristicas que tiene un robot //
+	////////////////////////////////////////
+	public SistemaOperativo sistemaOperativo;
+	public String nombre;
+
 
 	public Robot(){
-		sistemaOperativo = new SistemaOperativo();
+		this.sistemaOperativo = new SistemaOperativo();
 	}
 
+	//////////////////////////////////
+	// Funciones que tiene un robot //
+	//////////////////////////////////
 	public void despertar(){
 		System.out.println("Despertando robot!");
 	}

@@ -7,7 +7,7 @@ public class Robot{
 	public Robot(){
 		// sistema operativo por defecto con nombre por defecto
 		sistemaOperativo = new SistemaOperativo();
-		nombre = "bobot";
+		nombre = "Robotek";
 		System.out.println("Invocando Robot()");
 		System.out.println(datosDelRobot());
 	}
