@@ -8,3 +8,4 @@ Uso de Clases Abstractas
 mvn clean package; reset; java -jar target/poo-java-1.0.0.jar
 
 
+mvn exec:java -Dexec.mainClass="com.curso.App"
